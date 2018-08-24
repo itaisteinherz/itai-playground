@@ -1,0 +1,28 @@
+{
+	"name": "itai-playground",
+	"version": "0.0.0",
+	"description": "Experiments 🚧",
+	"license": "MIT",
+	"repository": "itaisteinherz/itai-playground",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.22.0"
+	},
+	"xo": {
+		"rules": {
+			"quotes": [
+				"error",
+				"double"
+			]
+		}
+	}
+}
