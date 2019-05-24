@@ -8,7 +8,8 @@
 		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"release": "np --no-yarn"
 	},
 	"files": [
 		"index.js"
